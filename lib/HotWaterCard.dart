@@ -31,9 +31,9 @@ class HotWaterCard extends StatelessWidget {
           ),
           Column(
             children: [
-              CustomTextField("Тариф", fareHotWaterController),
-              CustomTextField("Текущие показания", currentHotWaterReadingsController),
-              CustomTextField("Предыдущие показания", pastHotWaterReadingsController),
+              CustomTextField("Тариф (р/куб.м)", fareHotWaterController),
+              CustomTextField("Текущие показания (куб.м)", currentHotWaterReadingsController),
+              CustomTextField("Предыдущие показания (куб.м)", pastHotWaterReadingsController),
             ],
           ),
         ],

@@ -127,7 +127,7 @@ class _MyCustomFormState extends State<UtilityCostCalculatorForm> {
                                 showAlertDialog(context, elDay + elNight, hotWater + coldWater, gas);
                               }
                             },
-                            child: const Text("Расчитать")),
+                            child: const Text("Рассчитать")),
                       ),
                     ),
                   ],

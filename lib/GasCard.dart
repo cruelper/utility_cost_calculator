@@ -61,11 +61,11 @@ class _GasCardState extends State<GasCard> {
           Column(
             children: [
               CustomTextField.withState(
-                    "Тариф", fareGasController, isGas.getBool()),
+                    "Тариф (р/куб.м)", fareGasController, isGas.getBool()),
               CustomTextField.withState(
-                    "Текущие показания", currentGasReadingsController, isGas.getBool()),
+                    "Текущие показания (куб.м)", currentGasReadingsController, isGas.getBool()),
               CustomTextField.withState(
-                    "Предыдущие показания", pastGasReadingsController, isGas.getBool()),
+                    "Предыдущие показания (куб.м)", pastGasReadingsController, isGas.getBool()),
             ],
           ),
         ],

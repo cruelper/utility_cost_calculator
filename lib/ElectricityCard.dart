@@ -36,16 +36,16 @@ class ElectricityCard extends StatelessWidget {
               ),
             ),
           ),
-          CustomTextField("Тариф день", fareElDayController),
+          CustomTextField("Тариф день (р/кВт*ч)", fareElDayController),
           CustomTextField(
-                "Текущие показания день", currentElReadingsDayController),
+                "Текущие показания день (кВт*ч)", currentElReadingsDayController),
           CustomTextField(
-                "Предыдущие показания день", pastElReadingsDayController),
-          CustomTextField("Тариф ночь", fareElNightController),
+                "Предыдущие показания день (кВт*ч)", pastElReadingsDayController),
+          CustomTextField("Тариф ночь (р/кВт*ч)", fareElNightController),
           CustomTextField(
-                "Текущие показания ночь", currentElReadingsNightController),
+                "Текущие показания ночь (кВт*ч)", currentElReadingsNightController),
           CustomTextField(
-                "Предыдущие показания ночь", pastElReadingsNightController),
+                "Предыдущие показания ночь (кВт*ч)", pastElReadingsNightController),
         ],
       ),
     );
